@@ -1,5 +1,5 @@
 # Youtube Learning Assistant
-[Demo image 01](01 demo youtube learning assistant.png)
+[Demo image 01](demo image/01 demo youtube learning assistant.png)
 ## Overview
 
 This project presents a Youtube Learning Assistant built using Python, Flask, Langchain, and RAG (Retrieval-Augmented Generation) based of Large Language Model (LLM). This application allows users to ask questions and get information from any YouTube video link by leveraging the video transcript and RAG system. 
