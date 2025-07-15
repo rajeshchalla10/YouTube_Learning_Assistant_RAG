@@ -1,0 +1,292 @@
+/* General Body and Container Styling */
+body {
+    font-family: "Raleway",sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0E131C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container { /* For index.html */
+    background-color: #ece9f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+
+    color: #1f1c24;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+p {
+    color: #1f1c24;
+    font-size: 1.05em;
+    margin-bottom: 30px;
+}
+
+/* Form and Input Styling (for index.html) */
+form {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+#index-btn{
+    margin-top: 10px;
+}
+
+#youtube-link-input {
+    
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box; /* Include padding in element's total width/height */
+}
+
+button[type="submit"] {
+    margin-bottom: 0px;
+    background-color: #7D39EB;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    
+}
+
+button[type="submit"]:hover {
+    background-color: #5a1eb9;
+}
+
+/* Chat Container Styling (for chat.html) */
+.chat-container {
+    width: 90%;
+    max-width: 550px;
+    background-color: #ece9f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 64vh;
+    overflow: hidden;
+}
+
+/* Chat Header */
+.chat-header {
+    background-color: #7D39EB;
+    background-image: linear-gradient(to bottom right, rgb(122, 88, 208), rgb(65, 65, 163));
+    color: white;
+    padding: 12px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    display: flex; /* Use flexbox for header content */
+    align-items: center; /* Center items vertically */
+    gap: 15px; /* Space between title and thumbnail */
+}
+
+.chat-header h2 {
+    margin: 0;
+    font-size: 1.5em; /* Slightly smaller for video title */
+    flex-grow: 1; /* Allow title to take up remaining space */
+    text-align: left; /* Align text to the left */
+}
+
+#video-thumbnail-container {
+    width: 80px; /* Fixed width for thumbnail */
+    height: 60px; /* Fixed height for thumbnail */
+    background-color: #ffffff; /* Placeholder background */
+    background-image: linear-gradient(to bottom right, #5e2bac, #150135);
+    border-radius: 5px;
+    margin-bottom: 4px;
+    overflow: hidden;
+    flex-shrink: 0; /* Prevent thumbnail from shrinking */
+}
+
+#video-thumbnail-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the container without distorting image */
+}
+
+/* Chat Messages Area */
+.chat-messages {
+    flex-grow: 1;
+    padding: 20px;
+    line-height: 1.6;
+    overflow-y: auto;
+    background-color: #ece9f4;
+    display: flex; /* Enable flexbox for messages for alignment */
+    flex-direction: column; /* Stack messages vertically */
+}
+
+/* Scrollbar Styling */
+.chat-messages::-webkit-scrollbar {
+    width: 8px;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Individual Message Styling */
+.messages {
+    padding: 10px 15px;
+    border-radius: 18px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    line-height: 2;
+    word-wrap: break-word;
+}
+
+.bot-message {
+    background-color: #cfc8a8;
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+.user-message {
+    background-color: #cfc8a8;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+/* Chat Input Area */
+.chat-input-area {
+
+    display: flex;
+    flex-direction: column; /* Inputs and button side-by-side */
+    padding: 15px 20px;
+    border-top: 1px solid #eee;
+    background-color: #f9f9f9;
+    gap: 10px;
+}
+
+
+#question {
+    
+    /*margin-top: 5px;*/
+    
+    flex-grow: 1; /* Allow textarea to take up available space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2em;
+    min-height: 40px; /* Initial height for the textarea */
+    min-width: 200px;
+    resize: none; /* Disable resizing for a cleaner look */
+}
+
+/*0
+#chat-btn{
+    margin-bottom: 10px;
+
+}
+
+*/
+
+
+#submit-button {
+    background-color: #d9b80f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    flex-shrink: 0; /* Prevent button from shrinking */
+}
+
+#submit-button:hover {
+    background-color: #8dbc8f;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+    display: none; /* Hidden by default, JavaScript shows/hides it */
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #d9b80f;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: 10px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .container, .chat-container {
+        width: 95%;
+        height: 90vh;
+    }
+    .chat-header h2 {
+        font-size: 1.1em;
+    }
+    #video-thumbnail-container {
+        width: 60px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 30px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    p {
+        font-size: 1em;
+    }
+    .chat-header {
+        flex-direction: column; /* Stack header elements */
+        padding: 10px;
+    }
+    .chat-header h2 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+    }
+    .chat-input-area {
+        flex-direction: column; /* Stack inputs and button vertically */
+        padding: 10px;
+        gap: 8px;
+    }
+    #youtube-link-input,
+    #user-question-input,
+    #submit-button {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,9 @@
+python-dotenv
+youtube-transcript-api
+langchain
+langchain-community
+langchain-google-genai # New dependency for Gemini integration
+google-generativeai # New dependency for Gemini integration
+tiktoken
+chromadb
+faiss-cpu
