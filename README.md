@@ -13,11 +13,11 @@ This project presents a Youtube Learning Assistant built using Python, Flask, La
 - Flask Web Interface: Provides a simple web interface for users to interact with the assistant.
 
 ## Technologies Used
-Python: The core programming language for the application.
-Flask: A lightweight web framework used for building the application's interface.
-Langchain: A framework for developing applications powered by language models, used for transcript loading, chunking, and RAG implementation.
-Large Language Model (LLM): Powers the question-answering and potentially summarization capabilities. Can be integrated with open-source LLMs or services like OpenAI's API.
-Retrieval-Augmented Generation (RAG): A technique that improves LLM performance by retrieving information from a knowledge base to augment the generation process.
+- Python: The core programming language for the application.
+- Flask: A lightweight web framework used for building the application's interface.
+- Langchain: A framework for developing applications powered by language models, used for transcript loading, chunking, and RAG implementation.
+- Large Language Model (LLM): Powers the question-answering and potentially summarization capabilities. Can be integrated with open-source LLMs or services like GEMINI API.
+- Retrieval-Augmented Generation (RAG): A technique that improves LLM performance by retrieving information from a knowledge base to augment the generation process.
 
 ## Getting Started
 
@@ -33,7 +33,3 @@ Retrieval-Augmented Generation (RAG): A technique that improves LLM performance 
 ## Contributing
 Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository, make your changes, and submit a pull request.
 Enter a YouTube video URL into the provided input field on the web interface.
-Submit the URL to initiate the processing.
-Ask questions related to the video content in the chat interface. The assistant will retrieve relevant information and provide answers based on the video's transcript.
-Contributing
-Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository, make your changes, and submit a pull request.
