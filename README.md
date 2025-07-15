@@ -1,5 +1,5 @@
 # Youtube Learning Assistant
-![Demo image 01](demo image/01 demo youtube learning assistant.png)
+![Demo image 01]([demo image/01 demo youtube learning assistant.png](https://github.com/rajeshchalla10/YouTube_Learning_Assistant_RAG/blob/4c4a3716ba15e313bc001c80187fe6c7fc07b4b2/demo%20image/01%20demo%20youtube%20learning%20assistant.png))
 
 ## Overview
 
