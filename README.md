@@ -27,7 +27,7 @@ This project presents a Youtube Learning Assistant built using Python, Flask, La
 - Check the requirements.txt file to know the required libraries to install.
   
 ### Usage
-- Open your web browser and navigate to http://localhost:5000 (or the port specified by the application).
+- Open your web browser and navigate to http://localhost:5000 (or supported port by the application).
 - Enter a YouTube video URL into the provided input field on the web interface.
 - Submit the URL to initiate the processing.
 - Ask questions related to the video content in the chat interface. The assistant will retrieve relevant information and provide answers based on the video's transcript.
