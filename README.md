@@ -34,4 +34,4 @@ This project presents a Youtube Learning Assistant built using Python, Flask, La
 
 ## Contributing
 Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository, make your changes, and submit a pull request.
-Enter a YouTube video URL into the provided input field on the web interface.
+
